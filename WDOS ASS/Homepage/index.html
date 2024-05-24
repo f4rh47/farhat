@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farm to Fresh Grocery</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <div class="delivery-banner">
+            <p class="top">&#x1F550; We are open 24/7 &#65372; &#9743; Need Help? Call us:<a href="tel:+94714987397">+94 714987397</a></p>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/profile.php?id=61559653757620"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com/farmtofreshgrocery/"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+        <div class="container nav">
+            <img src="C:\Users\FARHAT\Desktop\WDOS ASS\Images\logo1.png" alt="Farm to Fresh Grocery Logo">
+            <h1>Farm to Fresh Grocery</h1>
+            <nav>
+                <button class="menu-toggle" aria-label="Toggle menu">
+                    <i class="fa fa-bars"></i>
+                </button>
+                <ul class="nav-links">
+                    <li><a href="C:\Users\FARHAT\Desktop\WDOS ASS\Homepage\index.html">Home</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropbtn">Products &#9662;</a>
+                        <div class="dropdown-content">
+                            <a href="C:\Users\FARHAT\Desktop\WDOS ASS\vegetable\vegetable.html">Vegetables</a>
+                            <a href="C:\Users\FARHAT\Desktop\WDOS ASS\dairy\dairy.html">Dairy Products</a>
+                            <a href="C:\Users\FARHAT\Desktop\WDOS ASS\cosmetics\cosmetics.html">Cosmetics</a>
+                        </div>
+                    </li>
+                    <li><a href="C:\Users\FARHAT\Desktop\WDOS ASS\order\order.html">Order Page</a></li>
+                    <li><a href="C:\Users\FARHAT\Desktop\WDOS ASS\loyalty\loyalty.html">Loyalty Registration</a></li>
+                    <li><a href="C:\Users\FARHAT\Desktop\WDOS ASS\about\about.html">About Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <!-- Description About The Our Groecery Shop -->
+        <section class="blur">
+            <div class="container">
+                <h2>Welcome to Farm to Fresh Grocery</h2>
+                <p>We are committed to providing the freshest and highest quality produce sourced directly from local farms.</p>
+                <p>Our wide range of products includes organic fruits, vegetables, dairy products, and cosmetics to meet all your grocery needs.</p>
+            </div>
+        </section> 
+        <!-- Vegetables Description -->
+        <section class="blur">
+            <div class="container">
+                <h2>Our Farm-Fresh Vegetables</h2>
+                <img class="img" src="C:\Users\FARHAT\Desktop\WDOS ASS\Homepage\images\vegetables.jpg" alt="Vegetables">
+                <p>At Farm to Fresh Grocery, we offer a diverse selection of locally grown vegetables, ensuring freshness and sustainability.</p>
+                <p>From crisp lettuce to juicy tomatoes, our produce is handpicked to deliver exceptional taste and nutrition.</p>
+            </div>
+        </section>
+        <!-- Dairy Products Description -->
+        <section class="blur">
+            <div class="container">
+                <h2>Premium Dairy Products</h2>
+                <img class="img" src="C:\Users\FARHAT\Desktop\WDOS ASS\Homepage\images\dairy.jpg" alt="Dairy Products">
+                <p>Indulge in our range of premium dairy products, including farm-fresh milk, artisan cheeses, and creamy yogurts.</p>
+                <p>With our commitment to quality and freshness, you can trust that every product is sourced from trusted local farms.</p>
+            </div>
+        </section>
+        <!-- Cosmetics Description -->
+        <section class="blur">
+            <div class="container">
+                <h2>Natural Cosmetics</h2>
+                <img class="img" src="C:\Users\FARHAT\Desktop\WDOS ASS\Homepage\images\cosmetic.jpg" alt="Cosmetics">
+                <p>Discover our selection of natural cosmetics made with organic ingredients to nourish and rejuvenate your skin.</p>
+                <p>From luxurious moisturizers to revitalizing serums, our skincare products are crafted to enhance your natural beauty.</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="social">
+                <a href="https://www.facebook.com/profile.php?id=61559653757620"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.instagram.com/farmtofreshgrocery/"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+            <div class="footer-nav">
+                <ul>
+                    <li><a href="C:\Users\FARHAT\Desktop\WDOS ASS\Homepage\index.html">Home</a></li>
+                    <li><a href="C:\Users\FARHAT\Desktop\WDOS ASS\loyalty\loyalty.html">Loyalty</a></li>
+                    <li><a href="C:\Users\FARHAT\Desktop\WDOS ASS\order\order.html">Order Page</a></li>
+                    <li><a href="C:\Users\FARHAT\Desktop\WDOS ASS\about\about.html">About us</a></li>
+                </ul>
+            </div>  
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Farm to Fresh Grocery</p>
+            </div>
+    </footer>
+    <script>
+        const menuToggle = document.querySelector('.menu-toggle');
+        const navLinks = document.querySelector('.nav-links');
+
+        menuToggle.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
